@@ -1,7 +1,7 @@
 //new
 #include <iostream>
 #include <cstdlib>
-#include <set>
+#include <vector>
 #include <ctime>
 using namespace std;
 
