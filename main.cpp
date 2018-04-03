@@ -11,7 +11,7 @@ int main()
 	int lenght = 100;
 	int sum = 0;
 	for(int i = 0; i < lenght ; i++){
-		data.at(i) = (rand % 10) +1;	
+		data.at(i) = (rand % 10) + 1;	
 	}
 
 	for(int i = 0; i < lenght ; i++){
