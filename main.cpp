@@ -8,10 +8,11 @@ using namespace std;
 int main()
 {
 	vector <int> data;
-	int lenght = 100000;
+	vector <int> ans;
+ 	int lenght = 100000;
 	int sum = 0;
 	for(int i = 0; i < lenght ; i++){
-		data.push_back((rand() % 10) + 1);	
+		data.push_back((rand() % 5) + 1);	
 	}
 
 	for(int i = 0; i < lenght ; i++){
@@ -19,7 +20,14 @@ int main()
 	}
 	cout << "sum = " << sum << endl;
 
-
+	for(int i = 0; i < lenght ; i++){
+		sum = 0;
+		for(int j = 0; j < lenght ; j++){
+			sum += data.at(j);
+			ans.push_back(sum);		//this will be same all the time
+		}	
+	}
+	
 
 	return 0;
 }
