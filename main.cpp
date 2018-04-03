@@ -8,8 +8,7 @@ using namespace std;
 int main()
 {
 	vector <int> data;
-	//data.push_back(0);
-	int lenght = 100;
+	int lenght = 100000;
 	int sum = 0;
 	for(int i = 0; i < lenght ; i++){
 		data.push_back((rand() % 10) + 1);	
