@@ -8,7 +8,7 @@ using namespace std;
 int main()
 {
 	vector <int> data;
-	data.push_back = 0;
+	data.push_back(0);
 	int lenght = 100;
 	int sum = 0;
 	for(int i = 0; i < lenght ; i++){
