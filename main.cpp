@@ -12,7 +12,7 @@ int main()
 	int lenght = 100;
 	int sum = 0;
 	for(int i = 0; i < lenght ; i++){
-		data[i] = (rand() % 10) + 1;	
+		data.push_back((rand() % 10) + 1);	
 	}
 
 	for(int i = 0; i < lenght ; i++){
