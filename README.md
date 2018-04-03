@@ -14,3 +14,5 @@ Sumbols: -g = hirarchical profiling
 `perf report`
 
 Ref: https://stackoverflow.com/questions/27742462/understanding-linux-perf-report-output?utm_medium=organic&utm_source=google_rich_qa&utm_campaign=google_rich_qa <br />
+
+Note: hirarchical profiling is not correct here. Remove -g from perf record. <br />
